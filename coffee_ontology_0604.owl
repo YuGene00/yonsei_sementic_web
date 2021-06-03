@@ -527,9 +527,11 @@
     <Declaration>
         <Class IRI="#Test"/>
     </Declaration>
-    <Declaration>        <Class IRI="#Test2"/>
+    <Declaration>
+        <Class IRI="#Test2"/>
     </Declaration>
-    <Declaration>        <Class IRI="#Vanilla"/>
+    <Declaration>
+        <Class IRI="#Vanilla"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VanillaCreamColdBrew"/>
@@ -4315,6 +4317,13 @@
     <SubClassOf>
         <Class IRI="#TeabanaProduct"/>
         <Class IRI="#NonCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Additive"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vanilla"/>
