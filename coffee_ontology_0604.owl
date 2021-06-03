@@ -1,0 +1,4925 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice">
+    <Prefix name="" IRI="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is an ontology about coffee choice</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Acidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Additive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgedSumatraVintage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasicCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlackEagle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlendedProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrewedCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrewedCoffeeProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaffeAmericano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaffeLatte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caffe_Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaffeineLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CalorieLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Macchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chai_Tea_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Cream_Chip_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolatey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinnamon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classic_Affogato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoffeeBean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoffeeBeansCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoffeePress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coffee_Starbucks_Double_Shot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdBrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdBrewFloat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdBrewMalt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coldbrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdbrewProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColombiaFincaLaReserva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cool_Lime_Starbucks_Fizzio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostaRicaBellaVista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostaRicaNaranjo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DolceColdBrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dolce_Black_Milk_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earl_Grey_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EcuadorLoja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#English_Breakfast_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espresso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspressoProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspressoRoast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espresso_Con_Panna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espresso_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espresso_Macchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtractionMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FizzioProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrappuccinoProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrenchAppleTarteNitro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullfatMilk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grapefruit_Honey_Black_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HawaiiKau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeavyBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighAcidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighCaffeine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighCalorie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighSugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Icecream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IcedCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Blonde_Vanilla_Double_Shot_Macchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Caffe_Americano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Caffe_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Cappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Chai_Tea_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Hibiscus_Blend_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Lavender_Cafe_Breve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Lime_Passion_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Vanilla_Bean_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_White_Chocolate_Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Yuja_Mint_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_Chip_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JejuForestColdBrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeju_Black_Sesame_Cream_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeju_Cheonhyehyang_Black_Tea_Blended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeju_Mugwort_Cream_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeju_Organic_Green_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KenyaUkambani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kongomul_Black_Milk_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lavender_Cafe_Breve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lime_Passion_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowAcidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowCaffeine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowCalorie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowSugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowfatMilk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mango_Banana_Blended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mango_Passion_Fruit_Blended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MidnightBergamotColdBrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mint_Blend_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mocha_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NitroColdBrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NitroVanillaCream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormalAcidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutrientLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PanamaCarmenEstate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peach_Jelly_Iced_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peach_Jelly_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pink_Grapefruit_Starbucks_Fizzio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pourover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReserveDrip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReserveEspresso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReserveOnly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rum_Shot_Cortado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RwandaHingakawa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shakerato_Affogato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Siphon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smoky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoybeanMilk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparkling_Citrus_Espresso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialtyCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Starbucks_Dolce_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Delight_Yogurt_Blended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SugarLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SulawesiTorajaSapanVillage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syrup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeabanaProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VanillaCreamColdBrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_Bean_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_Cream_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_Flat_White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Chocolate_Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Strawberry_Cream_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Tiger_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Youthberry_Brewed_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yuja_Mint_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peach_&amp;_Lemon_Blended"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAcidity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAdditive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBody"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCaffeine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCalorie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCoffeeBean"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExtractionMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutrient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSugar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTastingNote"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasExtractionFlavor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasExtractionPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasExtractionTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AsiaPacific"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LatinAmerica"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Milk"/>
+        <ObjectUnionOf>
+            <Class IRI="#FullfatMilk"/>
+            <Class IRI="#LowfatMilk"/>
+            <Class IRI="#SoybeanMilk"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acidity"/>
+        <Class IRI="#CoffeeBeansCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#LowAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#HeavyBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Smoky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#AsiaPacific"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+        <Class IRI="#ReserveDrip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Chemex"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Clover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#ColdBrew"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7500</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Pourover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Siphon"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#AgedSumatraVintage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasicCoffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasicCoffee"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#EspressoRoast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackEagle"/>
+        <Class IRI="#ExtractionMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackEagle"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>smooth and consistent</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackEagle"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionTime"/>
+            <Literal>1 min</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
+        <Class IRI="#FizzioProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlendedProduct"/>
+        <Class IRI="#NonCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Body"/>
+        <Class IRI="#CoffeeBeansCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffee"/>
+        <Class IRI="#BrewedCoffeeProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffeeProduct"/>
+        <Class IRI="#BasicCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffeeProduct"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffeeProduct"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrewedCoffeeProduct"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeAmericano"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeAmericano"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeAmericano"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeAmericano"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeLatte"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeLatte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeLatte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeLatte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeLatte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caffe_Mocha"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caffe_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caffe_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caffe_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caffe_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaffeineLevel"/>
+        <Class IRI="#NutrientLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CalorieLevel"/>
+        <Class IRI="#NutrientLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cappuccino"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cinnamon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel"/>
+        <Class IRI="#Syrup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Caramel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Caramel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chai_Tea_Latte"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chai_Tea_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chai_Tea_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chai_Tea_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemex"/>
+        <Class IRI="#ExtractionMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemex"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>clean and bright</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemex"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionTime"/>
+            <Literal>4 min</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Cream_Chip_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Cream_Chip_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Cream_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Cream_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Cream_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolatey"/>
+        <Class IRI="#Flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinnamon"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classic_Affogato"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classic_Affogato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Icecream"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classic_Affogato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classic_Affogato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classic_Affogato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clover"/>
+        <Class IRI="#ExtractionMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clover"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>aromatic and robust</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clover"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionTime"/>
+            <Literal>0.67 min</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee"/>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoffeePress"/>
+        <Class IRI="#ExtractionMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoffeePress"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>rich and full bodied</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoffeePress"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionTime"/>
+            <Literal>4 min</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_Starbucks_Double_Shot"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrew"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewFloat"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewFloat"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewFloat"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewFloat"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewMalt"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewMalt"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewMalt"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewMalt"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coldbrew"/>
+        <Class IRI="#ExtractionMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coldbrew"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>smooth and mellow</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coldbrew"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionTime"/>
+            <Literal>14 hours</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdbrewProduct"/>
+        <Class IRI="#BasicCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColombiaFincaLaReserva"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColombiaFincaLaReserva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColombiaFincaLaReserva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#MediumBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColombiaFincaLaReserva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Chocolatey"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColombiaFincaLaReserva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Nutty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColombiaFincaLaReserva"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#LatinAmerica"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cool_Lime_Starbucks_Fizzio"/>
+        <Class IRI="#FizzioProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cool_Lime_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cool_Lime_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cool_Lime_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#MediumBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Nutty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#LatinAmerica"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+        <Class IRI="#ReserveDrip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Chemex"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Clover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#ColdBrew"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Pourover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Siphon"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#CostaRicaBellaVista"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#MediumBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Fruity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Nutty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#LatinAmerica"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+        <Class IRI="#ReserveDrip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Chemex"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Clover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#ColdBrew"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Pourover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Siphon"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#CostaRicaNaranjo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DolceColdBrew"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DolceColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DolceColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DolceColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolce_Black_Milk_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earl_Grey_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earl_Grey_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earl_Grey_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earl_Grey_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcuadorLoja"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcuadorLoja"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcuadorLoja"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#MediumBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcuadorLoja"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Herby"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcuadorLoja"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#LatinAmerica"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_Breakfast_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_Breakfast_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_Breakfast_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_Breakfast_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+        <Class IRI="#BasicCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoProduct"/>
+        <Class IRI="#BasicCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoRoast"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoRoast"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#HeavyBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoRoast"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Nutty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoRoast"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#AsiaPacific"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoRoast"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#LatinAmerica"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Con_Panna"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Con_Panna"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Con_Panna"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Con_Panna"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Frappuccino"/>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Macchiato"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Macchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Macchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FizzioProduct"/>
+        <Class IRI="#NonCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flavor"/>
+        <Class IRI="#CoffeeBeansCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floral"/>
+        <Class IRI="#Flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrappuccinoProduct"/>
+        <Class IRI="#NonCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchAppleTarteNitro"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchAppleTarteNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchAppleTarteNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchAppleTarteNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruity"/>
+        <Class IRI="#Flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullfatMilk"/>
+        <Class IRI="#Milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grapefruit_Honey_Black_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#MediumBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Fruity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#AsiaPacific"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+        <Class IRI="#ReserveDrip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Chemex"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Clover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#ColdBrew"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12500</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Pourover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Siphon"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#HawaiiKau"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeavyBody"/>
+        <Class IRI="#Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herby"/>
+        <Class IRI="#Flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighAcidity"/>
+        <Class IRI="#Acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighCaffeine"/>
+        <Class IRI="#CaffeineLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighCalorie"/>
+        <Class IRI="#CalorieLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighSugar"/>
+        <Class IRI="#SugarLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Icecream"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IcedCoffee"/>
+        <Class IRI="#BrewedCoffeeProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IcedCoffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IcedCoffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IcedCoffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Blonde_Vanilla_Double_Shot_Macchiato"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Blonde_Vanilla_Double_Shot_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Blonde_Vanilla_Double_Shot_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Blonde_Vanilla_Double_Shot_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Americano"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Americano"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Americano"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Americano"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Latte"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caffe_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Cappuccino"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Cappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cinnamon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Cappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Cappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Cappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Caramel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chai_Tea_Latte"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chai_Tea_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chai_Tea_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chai_Tea_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Hibiscus_Blend_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lavender_Cafe_Breve"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lavender_Cafe_Breve"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lavender_Cafe_Breve"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lavender_Cafe_Breve"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lime_Passion_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Vanilla_Bean_Latte"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Vanilla_Bean_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Vanilla_Bean_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Vanilla_Bean_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_White_Chocolate_Mocha"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_White_Chocolate_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_White_Chocolate_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_White_Chocolate_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_White_Chocolate_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Yuja_Mint_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_Chip_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_Chip_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JejuForestColdBrew"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JejuForestColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JejuForestColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JejuForestColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Black_Sesame_Cream_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Black_Sesame_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Black_Sesame_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Black_Sesame_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Cheonhyehyang_Black_Tea_Blended"/>
+        <Class IRI="#BlendedProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Cheonhyehyang_Black_Tea_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Cheonhyehyang_Black_Tea_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Cheonhyehyang_Black_Tea_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Mugwort_Cream_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Mugwort_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Mugwort_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Mugwort_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Organic_Green_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KenyaUkambani"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KenyaUkambani"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KenyaUkambani"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#HeavyBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KenyaUkambani"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Fruity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KenyaUkambani"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Herby"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KenyaUkambani"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#Africa"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kongomul_Black_Milk_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lavender_Cafe_Breve"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lavender_Cafe_Breve"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lavender_Cafe_Breve"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lavender_Cafe_Breve"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightBody"/>
+        <Class IRI="#Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lime_Passion_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowAcidity"/>
+        <Class IRI="#Acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowCaffeine"/>
+        <Class IRI="#CaffeineLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowCalorie"/>
+        <Class IRI="#CalorieLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowSugar"/>
+        <Class IRI="#SugarLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowfatMilk"/>
+        <Class IRI="#Milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Banana_Blended"/>
+        <Class IRI="#BlendedProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Banana_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Banana_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Banana_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Passion_Fruit_Blended"/>
+        <Class IRI="#BlendedProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Passion_Fruit_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Passion_Fruit_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Passion_Fruit_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumBody"/>
+        <Class IRI="#Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MidnightBergamotColdBrew"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MidnightBergamotColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MidnightBergamotColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MidnightBergamotColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint_Blend_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_Frappuccino"/>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroColdBrew"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroVanillaCream"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroVanillaCream"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroVanillaCream"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroVanillaCream"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonCoffee"/>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormalAcidity"/>
+        <Class IRI="#Acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nutty"/>
+        <Class IRI="#Flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#MediumBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Fruity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Nutty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#LatinAmerica"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+        <Class IRI="#ReserveDrip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Chemex"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Clover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#ColdBrew"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7500</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Pourover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Siphon"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#PanamaCarmenEstate"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
+        <Class IRI="#FizzioProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Iced_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Iced_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Iced_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Iced_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pink_Grapefruit_Starbucks_Fizzio"/>
+        <Class IRI="#FizzioProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pink_Grapefruit_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pink_Grapefruit_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pink_Grapefruit_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pourover"/>
+        <Class IRI="#ExtractionMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pourover"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>clean and flavorful and aromatic</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pourover"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionTime"/>
+            <Literal>3 min</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReserveEspresso"/>
+        <Class IRI="#SpecialtyCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReserveOnly"/>
+        <Class IRI="#SpecialtyCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rum_Shot_Cortado"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rum_Shot_Cortado"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rum_Shot_Cortado"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rum_Shot_Cortado"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RwandaHingakawa"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RwandaHingakawa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RwandaHingakawa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#MediumBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RwandaHingakawa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Floral"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RwandaHingakawa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Fruity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RwandaHingakawa"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#Africa"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shakerato_Affogato"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shakerato_Affogato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shakerato_Affogato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shakerato_Affogato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siphon"/>
+        <Class IRI="#ExtractionMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siphon"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>nuanced and delicate and clean</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siphon"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionTime"/>
+            <Literal>1.17 min</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smoky"/>
+        <Class IRI="#Flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoybeanMilk"/>
+        <Class IRI="#Milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling_Citrus_Espresso"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling_Citrus_Espresso"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling_Citrus_Espresso"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling_Citrus_Espresso"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialtyCoffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialtyCoffee"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#CoffeeBean"/>
+                <ObjectComplementOf>
+                    <Class IRI="#EspressoRoast"/>
+                </ObjectComplementOf>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starbucks_Dolce_Latte"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starbucks_Dolce_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starbucks_Dolce_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starbucks_Dolce_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starbucks_Dolce_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starbucks_Dolce_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Delight_Yogurt_Blended"/>
+        <Class IRI="#BlendedProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Delight_Yogurt_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Delight_Yogurt_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Delight_Yogurt_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SugarLevel"/>
+        <Class IRI="#NutrientLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#NormalAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Chocolatey"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Herby"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#AsiaPacific"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+        <Class IRI="#ReserveDrip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Chemex"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Clover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Coldbrew"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Pourover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Siphon"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#SulawesiTorajaSapanVillage"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+        <Class IRI="#CoffeeBean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAcidity"/>
+            <Class IRI="#LowAcidity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBody"/>
+            <Class IRI="#HeavyBody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Chocolatey"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTastingNote"/>
+            <Class IRI="#Fruity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOrigin"/>
+            <NamedIndividual IRI="#LatinAmerica"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+        <Class IRI="#ReserveDrip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Chemex"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Clover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#ColdBrew"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Pourover"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasExtractionMethod"/>
+                <Class IRI="#Siphon"/>
+            </ObjectExactCardinality>
+            <DataHasValue>
+                <DataProperty IRI="#hasExtractionPrice"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCoffeeBean"/>
+            <Class IRI="#SunDriedBrazilIsidroPereiraEstate"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syrup"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeabanaProduct"/>
+        <Class IRI="#NonCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla"/>
+        <Class IRI="#Syrup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanillaCreamColdBrew"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanillaCreamColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanillaCreamColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanillaCreamColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Bean_Latte"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Bean_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Bean_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Bean_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Bean_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Cream_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Cream_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Flat_White"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Flat_White"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Flat_White"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Flat_White"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+        <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha"/>
+        <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Chocolate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#HighCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Strawberry_Cream_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Strawberry_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Strawberry_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Strawberry_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Tiger_Frappuccino"/>
+        <Class IRI="#FrappuccinoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Tiger_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Tiger_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Tiger_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Youthberry_Brewed_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yuja_Mint_Tea"/>
+        <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_&amp;_Lemon_Blended"/>
+        <Class IRI="#BlendedProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_&amp;_Lemon_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCaffeine"/>
+            <Class IRI="#LowCaffeine"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_&amp;_Lemon_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#LowCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_&amp;_Lemon_Blended"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#LowSugar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BlackEagle"/>
+        <Class IRI="#Chemex"/>
+        <Class IRI="#Clover"/>
+        <Class IRI="#CoffeePress"/>
+        <Class IRI="#Coldbrew"/>
+        <Class IRI="#Pourover"/>
+        <Class IRI="#Siphon"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Coffee"/>
+        <Class IRI="#NonCoffee"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FullfatMilk"/>
+        <Class IRI="#LowfatMilk"/>
+        <Class IRI="#SoybeanMilk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HeavyBody"/>
+        <Class IRI="#LightBody"/>
+        <Class IRI="#MediumBody"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighAcidity"/>
+        <Class IRI="#LowAcidity"/>
+        <Class IRI="#NormalAcidity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighCaffeine"/>
+        <Class IRI="#LowCaffeine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighCalorie"/>
+        <Class IRI="#LowCalorie"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighSugar"/>
+        <Class IRI="#LowSugar"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#AsiaPacific"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#LatinAmerica"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBody"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCaffeine"/>
+        <ObjectProperty IRI="#hasNutrient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCalorie"/>
+        <ObjectProperty IRI="#hasNutrient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSugar"/>
+        <ObjectProperty IRI="#hasNutrient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTastingNote"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAcidity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasBody"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCaffeine"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCalorie"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasExtractionMethod"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSugar"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <Class IRI="#CoffeeBean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAdditive"/>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBody"/>
+        <Class IRI="#CoffeeBean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCaffeine"/>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCalorie"/>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+        <Class IRI="#CoffeeBean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCoffeeBean"/>
+        <Class IRI="#Coffee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExtractionMethod"/>
+        <Class IRI="#SpecialtyCoffee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#CoffeeBean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSugar"/>
+        <Class IRI="#StarbucksReserveDrink"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTastingNote"/>
+        <Class IRI="#CoffeeBean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <Class IRI="#Acidity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAdditive"/>
+        <Class IRI="#Additive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBody"/>
+        <Class IRI="#Body"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCaffeine"/>
+        <Class IRI="#CaffeineLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCalorie"/>
+        <Class IRI="#CalorieLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+        <Class IRI="#CoffeeBeansCharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCoffeeBean"/>
+        <Class IRI="#CoffeeBean"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExtractionMethod"/>
+        <Class IRI="#ExtractionMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <Class IRI="#NutrientLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Continent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSugar"/>
+        <Class IRI="#SugarLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTastingNote"/>
+        <Class IRI="#Flavor"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasExtractionFlavor"/>
+        <Class IRI="#ExtractionMethod"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasExtractionPrice"/>
+        <Class IRI="#ExtractionMethod"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasExtractionTime"/>
+        <Class IRI="#ExtractionMethod"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasExtractionFlavor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasExtractionPrice"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasExtractionTime"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Additive</IRI>
+        <Literal xml:lang="en">Coffee additives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoffeeBean</IRI>
+        <Literal xml:lang="en">coffee beans</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
