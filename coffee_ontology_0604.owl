@@ -525,6 +525,9 @@
         <Class IRI="#TeabanaProduct"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Test"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Vanilla"/>
     </Declaration>
     <Declaration>
