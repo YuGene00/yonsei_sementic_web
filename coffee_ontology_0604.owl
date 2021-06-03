@@ -525,12 +525,6 @@
         <Class IRI="#TeabanaProduct"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Test"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Test2"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Vanilla"/>
     </Declaration>
     <Declaration>
@@ -4317,27 +4311,6 @@
     <SubClassOf>
         <Class IRI="#TeabanaProduct"/>
         <Class IRI="#NonCoffee"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Test"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Additive"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Test2"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Additive"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Test2"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCharacteristic"/>
-            <Class IRI="#CoffeeBeansCharacteristic"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vanilla"/>
