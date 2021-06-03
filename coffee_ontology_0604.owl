@@ -525,10 +525,11 @@
         <Class IRI="#TeabanaProduct"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Test2"/>
+        <Class IRI="#Test"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#Vanilla"/>
+    <Declaration>        <Class IRI="#Test2"/>
+    </Declaration>
+    <Declaration>        <Class IRI="#Vanilla"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VanillaCreamColdBrew"/>
