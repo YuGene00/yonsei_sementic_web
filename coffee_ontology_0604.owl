@@ -4326,6 +4326,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Test2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCharacteristic"/>
+            <Class IRI="#CoffeeBeansCharacteristic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vanilla"/>
         <Class IRI="#Syrup"/>
     </SubClassOf>
