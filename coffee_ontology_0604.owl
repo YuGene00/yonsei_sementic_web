@@ -4319,6 +4319,13 @@
         <Class IRI="#NonCoffee"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Test"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Additive"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Test2"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
