@@ -45,6 +45,9 @@
         <Class IRI="#BlackEagle"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BlackTea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
     </Declaration>
     <Declaration>
@@ -93,7 +96,13 @@
         <Class IRI="#Caramel_Macchiato"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ChaiTea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Chai_Tea_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChamomileTea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
@@ -156,6 +165,9 @@
         <Class IRI="#ColombiaFincaLaReserva"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CondensedMilk"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Continent"/>
     </Declaration>
     <Declaration>
@@ -183,10 +195,16 @@
         <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EarlGreyTea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Earl_Grey_Brewed_Tea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EcuadorLoja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnglishBreakfastTea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#English_Breakfast_Brewed_Tea"/>
@@ -246,10 +264,16 @@
         <Class IRI="#Grapefruit_Honey_Black_Tea"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#GreenTea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#HawaiiKau"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HawaiiKau_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hazelnut"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
@@ -259,6 +283,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Herby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HibiscusTea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
@@ -420,6 +447,9 @@
         <Class IRI="#LowfatMilk"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MalchaTea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
     </Declaration>
     <Declaration>
@@ -442,6 +472,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MintTea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mint_Blend_Brewed_Tea"/>
@@ -468,10 +501,16 @@
         <Class IRI="#Nutty"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Omija"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PanamaCarmenEstate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassionFruitTea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
@@ -564,6 +603,9 @@
         <Class IRI="#Syrup"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Tea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#TeabanaProduct"/>
     </Declaration>
     <Declaration>
@@ -598,6 +640,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#White_Tiger_Frappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YouthBerryTea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Youthberry_Brewed_Tea"/>
@@ -823,8 +868,12 @@
         <Class IRI="#BlackEagle"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionTime"/>
-            <Literal>1 min</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.0</Literal>
         </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackTea"/>
+        <Class IRI="#Tea"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
@@ -944,6 +993,20 @@
     <SubClassOf>
         <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Omija"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#YouthBerryTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Byulgoong_Omija_Youthberry_Tea"/>
@@ -1178,8 +1241,19 @@
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ChaiTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Chai_Tea_Latte"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chai_Tea_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#ChaiTea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Chai_Tea_Latte"/>
@@ -1203,8 +1277,19 @@
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ChamomileTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#ChamomileTea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Chamomile_Blend_Brewed_Tea"/>
@@ -1242,7 +1327,7 @@
         <Class IRI="#Chemex"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionTime"/>
-            <Literal>4 min</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -1340,7 +1425,7 @@
         <Class IRI="#Clover"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionTime"/>
-            <Literal>0.67 min</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.67</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -1362,7 +1447,7 @@
         <Class IRI="#CoffeePress"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionTime"/>
-            <Literal>4 min</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -1480,7 +1565,7 @@
         <Class IRI="#Coldbrew"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionTime"/>
-            <Literal>14 hours</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">840.0</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -1525,6 +1610,10 @@
             <ObjectProperty IRI="#hasOrigin"/>
             <NamedIndividual IRI="#LatinAmerica"/>
         </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CondensedMilk"/>
+        <Class IRI="#Syrup"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cool_Lime_Starbucks_Fizzio"/>
@@ -1812,6 +1901,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dolce_Black_Milk_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolce_Black_Milk_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#CondensedMilk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolce_Black_Milk_Tea"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
@@ -1857,8 +1960,19 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EarlGreyTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Earl_Grey_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earl_Grey_Brewed_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#EarlGreyTea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Earl_Grey_Brewed_Tea"/>
@@ -1914,8 +2028,19 @@
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EnglishBreakfastTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#English_Breakfast_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_Breakfast_Brewed_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#EnglishBreakfastTea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#English_Breakfast_Brewed_Tea"/>
@@ -2157,6 +2282,13 @@
         <Class IRI="#Grapefruit_Honey_Black_Tea"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grapefruit_Honey_Black_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Grapefruit"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2180,6 +2312,10 @@
             <ObjectProperty IRI="#hasSugar"/>
             <Class IRI="#LowSugar"/>
         </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenTea"/>
+        <Class IRI="#Tea"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HawaiiKau"/>
@@ -2290,6 +2426,10 @@
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Hazelnut"/>
+        <Class IRI="#Syrup"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
         <Class IRI="#EspressoProduct"/>
     </SubClassOf>
@@ -2323,8 +2463,19 @@
         <Class IRI="#Flavor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#HibiscusTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#HibiscusTea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hibiscus_Blend_Brewed_Tea"/>
@@ -2420,6 +2571,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#YouthBerryTea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
@@ -3487,6 +3645,10 @@
         <Class IRI="#Milk"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MalchaTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
         <Class IRI="#FrappuccinoProduct"/>
     </SubClassOf>
@@ -3652,6 +3814,10 @@
         <Class IRI="#Additive"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MintTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mint_Blend_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
     </SubClassOf>
@@ -3778,6 +3944,10 @@
         <Class IRI="#Flavor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Omija"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PanamaCarmenEstate"/>
         <Class IRI="#CoffeeBean"/>
     </SubClassOf>
@@ -3891,6 +4061,10 @@
             <ObjectProperty IRI="#hasCoffeeBean"/>
             <Class IRI="#PanamaCarmenEstate"/>
         </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassionFruitTea"/>
+        <Class IRI="#Tea"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
@@ -4022,7 +4196,7 @@
         <Class IRI="#Pourover"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionTime"/>
-            <Literal>3 min</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.0</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -4163,7 +4337,7 @@
         <Class IRI="#Siphon"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionTime"/>
-            <Literal>1.17 min</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.17</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -4529,8 +4703,19 @@
         <Class IRI="#Additive"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Tea"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TeabanaProduct"/>
         <Class IRI="#NonCoffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeabanaProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Tea"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vanilla"/>
@@ -4864,6 +5049,10 @@
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#YouthBerryTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Youthberry_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
     </SubClassOf>
@@ -5178,7 +5367,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasExtractionTime"/>
-        <Datatype abbreviatedIRI="rdfs:Literal"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
