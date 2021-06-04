@@ -186,6 +186,9 @@
         <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cream"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DolceColdBrew"/>
     </Declaration>
     <Declaration>
@@ -301,6 +304,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#HighSugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honey"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Icecream"/>
@@ -486,6 +492,9 @@
         <Class IRI="#Mocha_Frappuccino"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Nitro"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#NitroColdBrew"/>
     </Declaration>
     <Declaration>
@@ -538,12 +547,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ReserveDrip"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ReserveEspresso"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ReserveOnly"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rum"/>
@@ -884,16 +887,16 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Lemonade"/>
-        </ObjectSomeValuesFrom>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#BlackTea"/>
+            <Class IRI="#Lemonade"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -931,6 +934,13 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Vanilla"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BlondeVanillaDoubleShotMacchiato"/>
@@ -1219,13 +1229,6 @@
         <Class IRI="#Caramel_Macchiato"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Caramel"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Caramel_Macchiato"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Milk"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1235,6 +1238,13 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Syrup"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Caramel"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Caramel_Macchiato"/>
@@ -1401,10 +1411,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Classic_Affogato"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Icecream"/>
-        </ObjectSomeValuesFrom>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Classic_Affogato"/>
@@ -1524,6 +1534,13 @@
     <SubClassOf>
         <Class IRI="#ColdBrewFloat"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewFloat"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -1545,6 +1562,20 @@
     <SubClassOf>
         <Class IRI="#ColdBrewMalt"/>
         <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewMalt"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Icecream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdBrewMalt"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ColdBrewMalt"/>
@@ -1888,6 +1919,10 @@
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cream"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DolceColdBrew"/>
         <Class IRI="#ColdbrewProduct"/>
     </SubClassOf>
@@ -1975,6 +2010,27 @@
             <ObjectProperty IRI="#hasSugar"/>
             <Class IRI="#LowSugar"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EarlGreyTea"/>
@@ -2152,6 +2208,13 @@
     <SubClassOf>
         <Class IRI="#Espresso_Con_Panna"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Con_Panna"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -2196,6 +2259,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Espresso_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espresso_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Espresso_Macchiato"/>
         <Class IRI="#EspressoProduct"/>
     </SubClassOf>
@@ -2204,13 +2281,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Milk"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Espresso_Macchiato"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Syrup"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2251,8 +2321,43 @@
         <Class IRI="#NonCoffee"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#FrappuccinoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrappuccinoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrappuccinoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#FrenchAppleTarteNitro"/>
         <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchAppleTarteNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Apple"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchAppleTarteNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Nitro"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FrenchAppleTarteNitro"/>
@@ -2308,6 +2413,13 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Grapefruit"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Honey"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Grapefruit_Honey_Black_Tea"/>
@@ -2453,6 +2565,13 @@
     <SubClassOf>
         <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Hazelnut"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hazelnut_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -2532,6 +2651,10 @@
         <Class IRI="#SugarLevel"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Honey"/>
+        <Class IRI="#Syrup"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Icecream"/>
         <Class IRI="#Additive"/>
     </SubClassOf>
@@ -2567,6 +2690,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Blonde_Vanilla_Double_Shot_Macchiato"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Blonde_Vanilla_Double_Shot_Macchiato"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -2591,10 +2721,17 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Omija"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#YouthBerryTea"/>
-        </ObjectSomeValuesFrom>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Byulgoong_Omija_Youthberry_Tea"/>
@@ -2690,13 +2827,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Milk"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Iced_Caffe_Mocha"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Syrup"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2733,6 +2863,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Cappuccino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Cappuccino"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
@@ -2765,6 +2902,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Caramel_Macchiato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
@@ -2787,6 +2931,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Chai_Tea_Latte"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chai_Tea_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#ChaiTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Chai_Tea_Latte"/>
@@ -2812,6 +2963,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#ChamomileTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Chamomile_Blend_Brewed_Tea"/>
@@ -2841,6 +2999,20 @@
     <SubClassOf>
         <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#CondensedMilk"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Dolce_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -2862,6 +3034,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#EarlGreyTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Earl_Grey_Brewed_Tea"/>
@@ -2887,6 +3066,13 @@
     <SubClassOf>
         <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#EnglishBreakfastTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_English_Breakfast_Brewed_Tea"/>
@@ -2923,6 +3109,20 @@
     <SubClassOf>
         <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Honey"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Grapefruit_Honey_Black_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -2944,6 +3144,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MintTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Green_Tangerine_Mint_Tea"/>
@@ -2973,6 +3180,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Hibiscus_Blend_Brewed_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#HibiscusTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Hibiscus_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#LowCaffeine"/>
         </ObjectExactCardinality>
@@ -2994,6 +3208,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#GreenTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Jeju_Organic_Green_Tea"/>
@@ -3019,6 +3240,20 @@
     <SubClassOf>
         <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Kongomul_Black_Milk_Tea"/>
@@ -3044,6 +3279,20 @@
     <SubClassOf>
         <Class IRI="#Iced_Lavender_Cafe_Breve"/>
         <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lavender_Cafe_Breve"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lavender_Cafe_Breve"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Lavender_Cafe_Breve"/>
@@ -3080,6 +3329,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Lime_Passion_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#PassionFruitTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -3101,6 +3357,20 @@
     <SubClassOf>
         <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MalchaTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Malcha_Latte_from_Jeju_Organic_farm"/>
@@ -3126,6 +3396,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MintTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Mint_Blend_Brewed_Tea"/>
@@ -3154,6 +3431,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Starbucks_Dolce_Latte"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
@@ -3176,6 +3467,20 @@
     <SubClassOf>
         <Class IRI="#Iced_Vanilla_Bean_Latte"/>
         <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Vanilla_Bean_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Vanilla_Bean_Latte"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Vanilla_Bean_Latte"/>
@@ -3211,6 +3516,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_White_Chocolate_Mocha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_White_Chocolate_Mocha"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
@@ -3233,6 +3545,13 @@
     <SubClassOf>
         <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#YouthBerryTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Youthberry_Brewed_Tea"/>
@@ -3265,6 +3584,13 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Yuja"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MintTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Yuja_Mint_Tea"/>
@@ -3326,6 +3652,13 @@
     <SubClassOf>
         <Class IRI="#JejuForestColdBrew"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MalchaTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JejuForestColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -3400,6 +3733,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Byuldabang_Peanut_Latte"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
@@ -3433,6 +3780,13 @@
     <SubClassOf>
         <Class IRI="#Jeju_Cheonhyehyang_Black_Tea_Blended"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Cheonhyehyang_Black_Tea_Blended"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#LowCaffeine"/>
         </ObjectExactCardinality>
@@ -3458,6 +3812,13 @@
     <SubClassOf>
         <Class IRI="#Jeju_Mugwort_Cream_Frappuccino"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Mugwort_Cream_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#LowCaffeine"/>
         </ObjectExactCardinality>
@@ -3479,6 +3840,13 @@
     <SubClassOf>
         <Class IRI="#Jeju_Organic_Green_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeju_Organic_Green_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#GreenTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Jeju_Organic_Green_Tea"/>
@@ -3547,6 +3915,13 @@
     <SubClassOf>
         <Class IRI="#Kongomul_Black_Milk_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kongomul_Black_Milk_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -3568,6 +3943,20 @@
     <SubClassOf>
         <Class IRI="#Lavender_Cafe_Breve"/>
         <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lavender_Cafe_Breve"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lavender_Cafe_Breve"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lavender_Cafe_Breve"/>
@@ -3627,6 +4016,13 @@
     <SubClassOf>
         <Class IRI="#Lime_Passion_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#PassionFruitTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lime_Passion_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -3676,6 +4072,13 @@
     <SubClassOf>
         <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MalchaTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Cream_Frappuccino_From_Jeju_Organic_Farm"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -3697,6 +4100,13 @@
     <SubClassOf>
         <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MalchaTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Malcha_Latte_from_Jeju_Organic_farm"/>
@@ -3845,6 +4255,13 @@
     <SubClassOf>
         <Class IRI="#Mint_Blend_Brewed_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MintTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mint_Blend_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#LowCaffeine"/>
         </ObjectExactCardinality>
@@ -3896,8 +4313,26 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mocha_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nitro"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#NitroColdBrew"/>
         <Class IRI="#ColdbrewProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Nitro"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NitroColdBrew"/>
@@ -3930,6 +4365,20 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Vanilla"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroVanillaCream"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NitroVanillaCream"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Nitro"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NitroVanillaCream"/>
@@ -4093,10 +4542,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Lemonade"/>
-        </ObjectSomeValuesFrom>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
@@ -4134,6 +4583,13 @@
     <SubClassOf>
         <Class IRI="#Peach_Jelly_Iced_Tea"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Iced_Tea"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -4155,6 +4611,13 @@
     <SubClassOf>
         <Class IRI="#Peach_Jelly_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Jelly_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Peach_Jelly_Tea"/>
@@ -4229,14 +4692,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReserveDrip"/>
-        <Class IRI="#SpecialtyCoffee"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ReserveEspresso"/>
-        <Class IRI="#SpecialtyCoffee"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ReserveOnly"/>
         <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
@@ -4379,6 +4834,13 @@
     <SubClassOf>
         <Class IRI="#Sparkling_Citrus_Espresso"/>
         <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling_Citrus_Espresso"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Lemon"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sparkling_Citrus_Espresso"/>
@@ -4763,6 +5225,13 @@
     <SubClassOf>
         <Class IRI="#VanillaCreamColdBrew"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanillaCreamColdBrew"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -4866,6 +5335,13 @@
     <SubClassOf>
         <Class IRI="#Vanilla_Flat_White"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Flat_White"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -4887,6 +5363,27 @@
     <SubClassOf>
         <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
         <Class IRI="#EspressoProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vanilla_Starbucks_Double_Shot"/>
@@ -4919,6 +5416,20 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Chocolate"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Caramel"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelvetDarkMochaNitro"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Nitro"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VelvetDarkMochaNitro"/>
@@ -5001,6 +5512,13 @@
     <SubClassOf>
         <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
         </ObjectExactCardinality>
@@ -5058,6 +5576,13 @@
     <SubClassOf>
         <Class IRI="#White_Tiger_Frappuccino"/>
         <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Vanilla"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Tiger_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#LowCaffeine"/>
         </ObjectExactCardinality>
@@ -5083,6 +5608,13 @@
     <SubClassOf>
         <Class IRI="#Youthberry_Brewed_Tea"/>
         <Class IRI="#TeabanaProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Youthberry_Brewed_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#YouthBerryTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Youthberry_Brewed_Tea"/>
@@ -5119,6 +5651,13 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Yuja"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yuja_Mint_Tea"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#MintTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Yuja_Mint_Tea"/>
