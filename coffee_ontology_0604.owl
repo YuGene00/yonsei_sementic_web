@@ -1929,44 +1929,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
-        </ObjectSomeValuesFrom>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCalorie"/>
             <Class IRI="#HighCalorie"/>
-        </ObjectSomeValuesFrom>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasSugar"/>
             <Class IRI="#LowSugar"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Cream"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Milk"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Double_Espresso_Chip_Frappuccino"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Syrup"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -2103,6 +2082,27 @@
         <Class IRI="#BasicCoffee"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Cream"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Syrup"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#EspressoProduct"/>
         <Class IRI="#BasicCoffee"/>
     </SubClassOf>
@@ -2194,20 +2194,6 @@
             <ObjectProperty IRI="#hasSugar"/>
             <Class IRI="#LowSugar"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Espresso_Frappuccino"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Cream"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Espresso_Frappuccino"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Syrup"/>
-        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Espresso_Macchiato"/>
@@ -4210,30 +4196,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mocha_Frappuccino"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCaffeine"/>
             <Class IRI="#HighCaffeine"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Mocha_Frappuccino"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCalorie"/>
-            <Class IRI="#HighCalorie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Mocha_Frappuccino"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasSugar"/>
-            <Class IRI="#HighSugar"/>
-        </ObjectSomeValuesFrom>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mocha_Frappuccino"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Cream"/>
+            <ObjectProperty IRI="#hasCalorie"/>
+            <Class IRI="#HighCalorie"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_Frappuccino"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSugar"/>
+            <Class IRI="#HighSugar"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -5349,13 +5328,6 @@
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Chocolate"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Cream"/>
-        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#White_Chocolate_Mocha_Frappuccino"/>
