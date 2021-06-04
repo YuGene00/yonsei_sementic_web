@@ -423,6 +423,9 @@
         <Class IRI="#Lemon"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Lemonade"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#LightBody"/>
     </Declaration>
     <Declaration>
@@ -878,6 +881,20 @@
     <SubClassOf>
         <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
         <Class IRI="#FizzioProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Lemonade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#BlackTea"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Black_Tea_Lemonade_Starbucks_Fizzio"/>
@@ -3578,6 +3595,10 @@
         <Class IRI="#Fruit"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Lemonade"/>
+        <Class IRI="#Additive"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#LightBody"/>
         <Class IRI="#Body"/>
     </SubClassOf>
@@ -4069,6 +4090,13 @@
     <SubClassOf>
         <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
         <Class IRI="#FizzioProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Lemonade"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Passion_Tango_Tea_Lemonade_Starbucks_Fizzio"/>
