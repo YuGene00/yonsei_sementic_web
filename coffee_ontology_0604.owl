@@ -141,9 +141,6 @@
         <Class IRI="#CoffeeBeansCharacteristic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CoffeePress"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Coffee_Starbucks_Double_Shot"/>
     </Declaration>
     <Declaration>
@@ -844,7 +841,14 @@
         <Class IRI="#BlackEagle"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionFlavor"/>
-            <Literal>smooth and consistent</Literal>
+            <Literal>consistent</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackEagle"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>smooth</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -1324,7 +1328,14 @@
         <Class IRI="#Chemex"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionFlavor"/>
-            <Literal>clean and bright</Literal>
+            <Literal>bright</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemex"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>clean</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -1422,7 +1433,14 @@
         <Class IRI="#Clover"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionFlavor"/>
-            <Literal>aromatic and robust</Literal>
+            <Literal>aromatic</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clover"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>robust</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -1435,24 +1453,6 @@
     <SubClassOf>
         <Class IRI="#Coffee"/>
         <Class IRI="#StarbucksReserveDrink"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CoffeePress"/>
-        <Class IRI="#ExtractionMethod"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CoffeePress"/>
-        <DataHasValue>
-            <DataProperty IRI="#hasExtractionFlavor"/>
-            <Literal>rich and full bodied</Literal>
-        </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CoffeePress"/>
-        <DataHasValue>
-            <DataProperty IRI="#hasExtractionTime"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
-        </DataHasValue>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Coffee_Starbucks_Double_Shot"/>
@@ -1583,7 +1583,14 @@
         <Class IRI="#Coldbrew"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionFlavor"/>
-            <Literal>smooth and mellow</Literal>
+            <Literal>mellow</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coldbrew"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>smooth</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -4556,7 +4563,21 @@
         <Class IRI="#Pourover"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionFlavor"/>
-            <Literal>clean and flavorful and aromatic</Literal>
+            <Literal>aromatic</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pourover"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>clean</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pourover"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>flavorful</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -4685,7 +4706,21 @@
         <Class IRI="#Siphon"/>
         <DataHasValue>
             <DataProperty IRI="#hasExtractionFlavor"/>
-            <Literal>nuanced and delicate and clean</Literal>
+            <Literal>clean</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siphon"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>delicate</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siphon"/>
+        <DataHasValue>
+            <DataProperty IRI="#hasExtractionFlavor"/>
+            <Literal>nuanced</Literal>
         </DataHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -5532,15 +5567,6 @@
             <Class IRI="#LowSugar"/>
         </ObjectExactCardinality>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#BlackEagle"/>
-        <Class IRI="#Chemex"/>
-        <Class IRI="#Clover"/>
-        <Class IRI="#CoffeePress"/>
-        <Class IRI="#Coldbrew"/>
-        <Class IRI="#Pourover"/>
-        <Class IRI="#Siphon"/>
-    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Coffee"/>
         <Class IRI="#NonCoffee"/>
