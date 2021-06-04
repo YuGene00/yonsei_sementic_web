@@ -546,9 +546,6 @@
         <Class IRI="#Pourover"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ReserveDrip"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Rum"/>
     </Declaration>
     <Declaration>
@@ -762,7 +759,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
-        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
@@ -1729,7 +1726,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
-        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
@@ -1844,7 +1841,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
-        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
@@ -2480,7 +2477,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HawaiiKau_Brewed_Coffee"/>
-        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HawaiiKau_Brewed_Coffee"/>
@@ -4458,7 +4455,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
-        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
@@ -4689,10 +4686,6 @@
             <DataProperty IRI="#hasExtractionTime"/>
             <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.0</Literal>
         </DataHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ReserveDrip"/>
-        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Rum"/>
@@ -4999,7 +4992,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
-        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
@@ -5114,7 +5107,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
-        <Class IRI="#ReserveDrip"/>
+        <Class IRI="#SpecialtyCoffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
