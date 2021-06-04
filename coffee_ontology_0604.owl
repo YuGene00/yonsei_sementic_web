@@ -2114,6 +2114,13 @@
         <Class IRI="#BasicCoffee"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EspressoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasExtractionMethod"/>
+            <Class IRI="#BlackEagle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#EspressoRoast"/>
         <Class IRI="#CoffeeBean"/>
     </SubClassOf>
