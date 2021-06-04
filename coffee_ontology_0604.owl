@@ -763,68 +763,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Chemex"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Clover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#ColdBrew"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7500</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Pourover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Siphon"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Chemex"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Clover"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Pourover"/>
+                    </ObjectExactCardinality>
+                </ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#ColdBrew"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7500</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#Siphon"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgedSumatraVintage_Brewed_Coffee"/>
@@ -851,10 +831,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BasicCoffee"/>
-        <ObjectSomeValuesFrom>
+        <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasCoffeeBean"/>
             <Class IRI="#EspressoRoast"/>
-        </ObjectSomeValuesFrom>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BlackEagle"/>
@@ -1730,68 +1710,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Chemex"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Clover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#ColdBrew"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Pourover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Siphon"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Chemex"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Clover"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Pourover"/>
+                    </ObjectExactCardinality>
+                </ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#ColdBrew"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#Siphon"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaBellaVista_Brewed_Coffee"/>
@@ -1845,68 +1805,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Chemex"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Clover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#ColdBrew"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Pourover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Siphon"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Chemex"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Clover"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Pourover"/>
+                    </ObjectExactCardinality>
+                </ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#ColdBrew"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#Siphon"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CostaRicaNaranjo_Brewed_Coffee"/>
@@ -2481,68 +2421,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HawaiiKau_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Chemex"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Clover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#ColdBrew"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12500</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Pourover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HawaiiKau_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Siphon"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Chemex"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Clover"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Pourover"/>
+                    </ObjectExactCardinality>
+                </ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#ColdBrew"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12500</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#Siphon"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HawaiiKau_Brewed_Coffee"/>
@@ -4459,68 +4379,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Chemex"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Clover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#ColdBrew"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7500</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Pourover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Siphon"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Chemex"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Clover"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Pourover"/>
+                    </ObjectExactCardinality>
+                </ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#ColdBrew"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7500</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#Siphon"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PanamaCarmenEstate_Brewed_Coffee"/>
@@ -4861,18 +4761,6 @@
         <Class IRI="#Coffee"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SpecialtyCoffee"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCoffeeBean"/>
-            <ObjectIntersectionOf>
-                <Class IRI="#CoffeeBean"/>
-                <ObjectComplementOf>
-                    <Class IRI="#EspressoRoast"/>
-                </ObjectComplementOf>
-            </ObjectIntersectionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Starbucks_Dolce_Latte"/>
         <Class IRI="#EspressoProduct"/>
     </SubClassOf>
@@ -4996,68 +4884,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Chemex"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Clover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Coldbrew"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Pourover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Siphon"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Chemex"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Clover"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Pourover"/>
+                    </ObjectExactCardinality>
+                </ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#ColdBrew"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#Siphon"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SulawesiTorajaSapanVillage_Brewed_Coffee"/>
@@ -5111,68 +4979,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Chemex"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Clover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#ColdBrew"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Pourover"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#hasExtractionMethod"/>
-                <Class IRI="#Siphon"/>
-            </ObjectExactCardinality>
-            <DataHasValue>
-                <DataProperty IRI="#hasExtractionPrice"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Chemex"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Clover"/>
+                    </ObjectExactCardinality>
+                    <ObjectExactCardinality cardinality="1">
+                        <ObjectProperty IRI="#hasExtractionMethod"/>
+                        <Class IRI="#Pourover"/>
+                    </ObjectExactCardinality>
+                </ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#ColdBrew"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6500</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#hasExtractionMethod"/>
+                    <Class IRI="#Siphon"/>
+                </ObjectExactCardinality>
+                <DataHasValue>
+                    <DataProperty IRI="#hasExtractionPrice"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7000</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SunDriedBrazilIsidroPereiraEstate_Brewed_Coffee"/>
