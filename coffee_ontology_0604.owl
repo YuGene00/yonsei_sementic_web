@@ -1891,6 +1891,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#EspressoProduct">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BasicCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasExtractionMethod"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BlackEagle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
