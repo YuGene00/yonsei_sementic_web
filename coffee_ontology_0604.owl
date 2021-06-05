@@ -858,7 +858,14 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#ChaiTea"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Milk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#ChaiTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -901,7 +908,8 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#ChamomileTea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#ChamomileTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1651,13 +1659,14 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BlackTea"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#CondensedMilk"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#CondensedMilk"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BlackTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1729,7 +1738,8 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#EarlGreyTea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#EarlGreyTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1804,7 +1814,8 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#EnglishBreakfastTea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#EnglishBreakfastTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2168,13 +2179,14 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BlackTea"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Grapefruit"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Grapefruit"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BlackTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2410,7 +2422,8 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#HibiscusTea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#HibiscusTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3712,14 +3725,15 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Cheonhyehyang"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BlackTea"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#BlackTea"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Cheonhyehyang"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4149,13 +4163,15 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Banana"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Banana"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasAdditive"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Mango"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Mango"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5023,6 +5039,21 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#SpecialtyCoffee">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#Coffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#hasCoffeeBean"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#CoffeeBean"/>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://www.semanticweb.org/saku/ontologies/2021/4/coffee_choice#EspressoRoast"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
