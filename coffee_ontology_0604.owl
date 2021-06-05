@@ -2131,6 +2131,13 @@
         <Class IRI="#EspressoFrappuccinoProduct"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspressoFrappuccinoProduct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Syrup"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2139,13 +2146,6 @@
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Cream"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#EspressoFrappuccinoProduct"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Milk"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -2815,16 +2815,16 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Cappuccino"/>
-        <ObjectExactCardinality cardinality="1">
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Cinnamon"/>
-        </ObjectExactCardinality>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iced_Cappuccino"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#hasAdditive"/>
-            <Class IRI="#Milk"/>
+            <Class IRI="#Cinnamon"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -5206,10 +5206,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vanilla_Bean_Latte"/>
-        <ObjectExactCardinality cardinality="1">
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAdditive"/>
             <Class IRI="#Milk"/>
-        </ObjectExactCardinality>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vanilla_Bean_Latte"/>
